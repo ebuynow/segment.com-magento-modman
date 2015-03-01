@@ -1,0 +1,4 @@
+app/code/community/Segment											app/code/community/Segment
+app/design/adminhtml/default/default/template/segment_analytics		app/design/adminhtml/default/default/template/segment_analytics
+app/design/frontend/base/default/template/segment_analytics			app/design/frontend/base/default/template/segment_analytics
+app/etc/modules/Segment_Analytics.xml								app/etc/modules/Segment_Analytics.xml
