@@ -10,14 +10,14 @@ class Segment_Analytics_Model_Observer
         $layout = Mage::getSingleton('core/layout');
         if(!$layout)
         {
-            Mage::Log("No Layout Object in " . __METHOD__);
+            //Mage::Log("No Layout Object in " . __METHOD__);
             return;
         }
         
         $before_body_end = $layout->getBlock('before_body_end');
         if(!$before_body_end)
         {
-            Mage::Log("No before body end in " . __METHOD__);
+            //Mage::Log("No before body end in " . __METHOD__);
             return;
         }
         
@@ -41,7 +41,7 @@ class Segment_Analytics_Model_Observer
                 $container->append($block);
             }
         }
-        Mage::Log("Finished addContainerBlocks");
+        //Mage::Log("Finished addContainerBlocks");
     }
 
     /**
